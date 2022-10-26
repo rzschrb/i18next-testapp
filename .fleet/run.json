@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+          "type": "command",
+          "name": "build dev webapp",
+          "program": "C:\\Program Files\\nodejs\\npm.cmd",
+          "tasks": "npm run dev"
+        },
+
+    ]
+}
