@@ -7,7 +7,7 @@ import { useTranslation, Trans } from "react-i18next";
 function App() {
   const [count, setCount] = useState(0)
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="App">
@@ -24,8 +24,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p><Trans i18nKey="welcomeToReact">Teste</Trans></p>
-        <h2>{t(`welcomeToReact`)}</h2>
+        <p><Trans i18nKey="welcomeToReact">welcomeToReact</Trans></p>
+        <h2>{t<string>(`welcomeToReact`)}</h2>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
