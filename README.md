@@ -35,6 +35,13 @@ Start the server
 npm run dev
 ```
 
+## Documentation
+
+[i18next](https://www.i18next.com/)
+
+[react-i18next](https://react.i18next.com/)
+
 ## Authors
 
 - [@rzschrb](https://www.github.com/rzschrb)
+- [i18next Github](https://github.com/i18next) - Lib Creator
